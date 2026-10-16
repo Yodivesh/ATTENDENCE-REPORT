@@ -1,0 +1,13 @@
+<html>
+<body>
+<h1>Attendance</h1>
+<input id="r" placeholder="Roll No">
+<button onclick="check()">Check</button>
+<p id="m"></p>
+<script>
+function check(){
+m.innerHTML=localStorage.getItem(r.value)||"Not Found";
+}
+</script>
+</body>
+</html>
